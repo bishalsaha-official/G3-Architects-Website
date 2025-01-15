@@ -30,7 +30,7 @@
     color: #424242;
 }
 
-.text-dark-02{
+.text-dark-03{
     color: #727272;
 }
 
@@ -46,6 +46,22 @@
     padding: 20px 25px;
     border: 0;
     border-radius: 5px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
 }
 
 /* Header Styles */
@@ -93,10 +109,26 @@
     margin-bottom: 30px;
 }
 
-.banner-description{
+.banner-description, .features-description{
     margin-bottom: 30px;
 }
 
 .banner-image{
     width: 100%;
+}
+
+/* Team Styles */
+.team{
+    align-items: center;
+    gap: 60px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-features{
+    max-width: 537px;
 }
