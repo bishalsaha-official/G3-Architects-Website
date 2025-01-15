@@ -48,7 +48,7 @@
     border-radius: 5px;
 }
 
-main{
+main, .footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -223,4 +223,16 @@ main > section{
 
 .sponsor-brands img{
     filter: grayscale(100%);
+}
+
+/* Footer Section Styles */
+.footer{
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.footer-description{
+    font-size: 1.25rem;
 }
