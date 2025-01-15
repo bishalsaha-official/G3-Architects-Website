@@ -1,0 +1,60 @@
+/* For Small Device */
+@media screen and (max-width: 576px){
+    .navbar, .nav-links, .team, .features{
+        flex-direction: column;
+    }
+
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features{
+        gap: 40px;
+    }
+
+    .our-features, .feature-header{
+        text-align: center;
+    }
+
+    #experience-badge{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .facts-container{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .facts-section-title, .facts-description{
+        text-align: center;
+    }
+
+    .sponsor-brands{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* For Medium Devices */
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .team{
+        flex-direction: column;
+    }
+
+    .our-features{
+        text-align: center;
+    }
+
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .sponsor-brands{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
