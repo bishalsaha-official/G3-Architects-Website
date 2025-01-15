@@ -7,3 +7,62 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Common CSS Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-primary{
+    color: #FF900E;
+}
+
+.text-dark-01{
+    color: #131313;
+}
+
+.text-dark-02{
+    color: #424242;
+}
+
+.text-dark-02{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Header Styles */
+
+/* Navbar Styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-items{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
